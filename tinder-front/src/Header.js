@@ -8,11 +8,11 @@ function Header() {
 	return(
 		<div className="header">
 			<IconButton>
-				<PersonIcon />
+				<PersonIcon fontSize="large" className="header__icon" />
 			</IconButton>
 			<img className="header__logo" src={fire} alt="tinder logo" />
 			<IconButton>
-				<ForumIcon />
+				<ForumIcon fontSize="large" className="header__icon"/>
 			</IconButton>
 		</div>
 	);
